@@ -1,0 +1,19 @@
+Given two integer arrays nums1 and nums2, return an array of their intersection.
+Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
+
+Ex: Input: nums1 = [1,2,2,1], nums2 = [2,2]
+
+my 1st approach: (づ ◕‿◕ )づ
+1. loop nums1 
+2. assign a value element to nums[i]
+3. loop nums2
+4. if the nums2[j] same as value, push to the result array
+=> work but duplicate [ 2, 2, 2, 2 ]  (●´⌓`●)
+
+my 2nd approach: ꒰(･‿･)꒱
+1. assign first value of nums1 and nums2 to value and value1
+2. if value === value1 => push to result array
+3. else go to 2 loop of each arrays
+=> not working Ⴚტ⊙▂⊙ტჂ
+
+community approach:
